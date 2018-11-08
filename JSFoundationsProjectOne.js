@@ -93,10 +93,10 @@ function sumOdds(numbers)
 function makePairs(names)
 {
 
-    let allPairs = []
+    const allPairs = []
     for (let i = 0; i < names.length; i++)
     {
-        let singlePair = [];
+        const singlePair = [];
         singlePair.push(names[i]);
         //If you are not at the end of the list of names, add the next element into the pair
         if (i + 1 < names.length)
